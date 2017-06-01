@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.applicationtest.vbr.designtest4">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DesignDemo">
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".com.vbr.main.MainActivity"
+            android:theme="@style/Theme.DesignDemo">
+
+        </activity>
+        <activity android:name=".com.vbr.LeaderBoard.Leaderboard"
+            android:theme="@style/Theme.DesignDemo"
+            >
+
+        </activity>
+        <activity android:name=".com.vbr.contests.ContestsActivity"
+            android:theme="@style/Theme.DesignDemo">
+
+
+        </activity>
+        <activity android:name=".com.vbr.contests.ContestsActivity1"
+            android:theme="@style/Theme.DesignDemo">
+
+
+        </activity>
+        <activity android:name=".com.vbr.login.LoginActivity1"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.DesignDemo">
+
+
+
+        </activity>
+        <activity android:name=".com.vbr.login.SignupActivity"
+            android:theme="@style/Theme.DesignDemo"
+            android:windowSoftInputMode="stateHidden">
+
+
+        </activity>
+        <activity android:name=".com.vbr.teamselection.TeamSelection1"
+            android:theme="@style/Theme.DesignDemo">
+
+
+        </activity>
+        <activity android:name=".Test"
+            android:theme="@style/Theme.DesignDemo">
+
+
+        </activity>
+        <activity android:name=".com.vbr.dashboardclasses.Dashboard"
+
+            android:theme="@style/Theme.DesignDemo">
+
+        </activity>
+        <activity android:name=".com.vbr.wallet.WalletActivity"
+            android:theme="@style/Theme.DesignDemo"></activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+    </application>
+
+</manifest>

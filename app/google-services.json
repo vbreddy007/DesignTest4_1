@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "727018928528",
+    "firebase_url": "https://testdesign4-52db4.firebaseio.com",
+    "project_id": "testdesign4-52db4",
+    "storage_bucket": "testdesign4-52db4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727018928528:android:ee382b4ac5e560b1",
+        "android_client_info": {
+          "package_name": "com.applicationtest.vbr.designtest4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727018928528-pf2su4rkbla31or8uj4v3bje6pq85mgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPjFttevObq9_NFvFPWc65GcabaGdrh2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
