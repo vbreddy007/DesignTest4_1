@@ -116,13 +116,13 @@ public class CONTESTS extends Fragment {
         @Override
         public void onBindViewHolder(final CONTESTS.CustomAdapter.ViewHolder holder, int position) {
 
-
+MyData mData = my_data.get(position);
 
            // holder.teamTwo.setText(my_data.get(position).getTeam_two());
 
            // holder.percentage.setText("90");
 
-            new PrgressBarTask().execute();
+           
             holder.donutProgress.setProgress(4);
 
 
